@@ -1,5 +1,8 @@
 # Attri-Net
-Official implementation for MIDL 2023 paper **Inherently Interpretable Multi-Label Classification of Chest X-rays Using Class-Specific Counterfactuals** [Arxiv Paper] (https://arxiv.org/abs/2303.00500)
+## Inherently Interpretable Multi-Label Classification of Chest X-rays Using Class-Specific Counterfactuals
+
+Official implementation for MIDL 2023 paper: **Inherently Interpretable Multi-Label Classification of Chest X-rays Using Class-Specific Counterfactuals**
+[Arxiv Paper](https://arxiv.org/abs/2303.00500) | [Attri-Net video on Youtube](https://youtu.be/NSnvlTYJtGQ) 
 
 ## Model overview
 <div style="displaystyle=block;align=center;"><p align="center" >
