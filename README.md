@@ -2,13 +2,22 @@
 Official implementation for MIDL 2023 paper **Inherently Interpretable Multi-Label Classification of Chest X-rays Using Class-Specific Counterfactuals** [Arxiv Paper] (https://arxiv.org/abs/2303.00500)
 
 ## Model overview
-
+<div style="displaystyle=block;align=center;"><p align="center" >
+  <img src="figs/Attri-Net_framework.png"/>
+  </p>
+</div>
 ## Results
 
 ### Qualitative evaluation
-
+<div style="displaystyle=block;align=center;"><p align="center" >
+  <img src="figs/Example_BB.png"/>
+  </p>
+</div>
 ### Quantitative evaluation
-
+<div style="displaystyle=block;align=center;"><p align="center" >
+  <img src="figs/Class_sensitivity.png"/>
+  </p>
+</div>
 
 ## Installation
 ```
