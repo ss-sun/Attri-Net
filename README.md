@@ -6,6 +6,7 @@ Official implementation for MIDL 2023 paper **Inherently Interpretable Multi-Lab
   <img src="figs/Attri-Net_framework.png"/ width="75%" height="75%">
   </p>
 </div>
+
 ## Results
 
 ### Qualitative evaluation
@@ -13,7 +14,13 @@ Official implementation for MIDL 2023 paper **Inherently Interpretable Multi-Lab
   <img src="figs/Example_BB.png"/ width="75%" height="75%">
   </p>
 </div>
+
 ### Quantitative evaluation
+<div style="displaystyle=block;align=center;"><p align="center" >
+  <img src="figs/vis_all.png"/ width="75%" height="75%">
+  </p>
+</div>
+
 <div style="displaystyle=block;align=center;"><p align="center" >
   <img src="figs/Class_sensitivity.png"/ width="75%" height="75%">
   </p>
