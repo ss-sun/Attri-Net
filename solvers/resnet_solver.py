@@ -136,7 +136,7 @@ class resnet_solver(object):
         return valid_auc_mean, valid_true, valid_pred
 
 
-    def test(self, which_loader="valid", save_result=False, result_dir=None):
+    def test(self, which_loader="test", save_result=False, result_dir=None):
 
         if which_loader == "test":
             data_loader = self.test_loader
