@@ -8,9 +8,12 @@ def map_image_to_intensity_range(image, min_o, max_o, percentiles=0):
         assert max_o <= 255, 'Input image type is uint8 but you selected a max_o > 255: %f' % max_o
     min_i = np.percentile(image, 0 + percentiles)
     max_i = np.percentile(image, 100 - percentiles)
-    image = (np.divide((image - min_i), max_i - min_i) * (max_o - min_o) + min_o).copy()
-    image[image > max_o] = max_o
-    image[image < min_o] = min_o
+    if (max_i - min_i) != 0:
+        image = (np.divide((image - min_i), (max_i - min_i)) * (max_o - min_o) + min_o).copy()
+        image[image > max_o] = max_o
+        image[image < min_o] = min_o
+    else:
+        image = image
     return image
 
 def normalize_image(img):
